@@ -1,14 +1,25 @@
 .navigation {
+    border-bottom: 1px solid $dark-grey-color;
+    cursor: pointer;
+
     &__logo {
         float: left;
     }
 
     &__nav {
         float: right;
+        margin-right: 1.7rem;
     }
 
     & a {
         text-decoration: none;
-        
+        color: $slate-grey-color;
+        padding: 1px 3px;
+
+        &:hover {
+            border: 1px solid $dark-grey-color;
+            background-color: $slate-grey-color;
+            color: $white-color;
+        }
     }
 }
