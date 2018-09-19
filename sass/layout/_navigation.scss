@@ -1,0 +1,14 @@
+.navigation {
+    &__logo {
+        float: left;
+    }
+
+    &__nav {
+        float: right;
+    }
+
+    & a {
+        text-decoration: none;
+        
+    }
+}
