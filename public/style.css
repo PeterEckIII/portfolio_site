@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: inherit; }
 
+*:not(img), *:before, *:after {
+  box-sizing: border-box; }
+
 html {
   font-size: 62.5%; }
 
@@ -19,7 +22,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  padding: 1rem; }
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -72,19 +75,24 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-.navigation {
-  border-bottom: 1px solid #777;
-  cursor: pointer; }
-  .navigation__logo {
-    float: left; }
-  .navigation__nav {
-    float: right;
-    margin-right: 1.7rem; }
-  .navigation a {
+.navbar {
+  background-color: #292c41;
+  overflow: hidden;
+  display: flex; }
+  .navbar__right {
+    margin-left: auto; }
+  .navbar a {
     text-decoration: none;
-    color: #333;
-    padding: 1px 3px; }
-    .navigation a:hover {
-      border: 1px solid #777;
-      background-color: #333;
-      color: #fff; }
+    color: #fff;
+    padding: 3px 5px;
+    font-size: 1.9rem; }
+    .navbar a:hover {
+      background-color: #fff;
+      color: #292c41;
+      border-radius: 3px; }
+
+@media (max-width: 56.25em) {
+  .navbar {
+    flex-direction: column; }
+  __right {
+    margin-left: 0; } }

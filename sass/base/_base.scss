@@ -6,6 +6,14 @@
     box-sizing: inherit;
 }
 
+* {
+    &:not(img),
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
+
 html {
     font-size: 62.5%;
 }
@@ -24,7 +32,7 @@ html {
 
 body {
 box-sizing: border-box;
-padding: 3rem;
+padding: 1rem;
 
 @include respond(tab-port) {
     padding: 0;

@@ -1,25 +1,32 @@
-.navigation {
-    border-bottom: 1px solid $dark-grey-color;
-    cursor: pointer;
+.navbar {
+    background-color: $gunmetal-color;
+    overflow: hidden;
+    display: flex;
 
-    &__logo {
-        float: left;
-    }
-
-    &__nav {
-        float: right;
-        margin-right: 1.7rem;
+    &__right {
+        margin-left: auto;
     }
 
     & a {
         text-decoration: none;
-        color: $slate-grey-color;
-        padding: 1px 3px;
+        color: $white-color;
+        padding: 3px 5px;
+        font-size: 1.9rem;
+
 
         &:hover {
-            border: 1px solid $dark-grey-color;
-            background-color: $slate-grey-color;
-            color: $white-color;
+            background-color: $white-color;
+            color: $gunmetal-color;
+            border-radius: $border-radius;
         }
+    }
+}
+
+@include respond(tab-port) {
+    .navbar {
+        flex-direction: column;
+    }
+    &__right {
+        margin-left: 0;
     }
 }
