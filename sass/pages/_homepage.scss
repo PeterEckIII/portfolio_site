@@ -11,6 +11,10 @@
         color: $white-color;
         letter-spacing: 0.4rem;
         padding-top: 8rem;
+        padding-bottom: 1rem;
+        border-bottom: 3px solid $purple-color;
+        display: inline-block;
+        
     }
 
     &__text {

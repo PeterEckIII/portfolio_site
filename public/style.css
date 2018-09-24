@@ -238,7 +238,10 @@ body {
     font-size: 5rem;
     color: #fff;
     letter-spacing: 0.4rem;
-    padding-top: 8rem; }
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #8544ba;
+    display: inline-block; }
   .section-intro__text {
     font-size: 2rem;
     color: #fff;
