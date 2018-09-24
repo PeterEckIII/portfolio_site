@@ -2,16 +2,37 @@
     background-color: $gunmetal-color;
     overflow: hidden;
     display: flex;
+    padding: 1.4rem;
+
+    &__items {
+        display: flex;
+    }
+
+    &__item {
+        padding-right: 2rem;
+    }
+
+    &__left {
+        display: inline-block;
+    }
 
     &__right {
         margin-left: auto;
+    }
+
+    &__toggle {
+        display: none;
+    }
+
+    &__logo {
+        margin-bottom: 1rem;
     }
 
     & a {
         text-decoration: none;
         color: $white-color;
         padding: 3px 5px;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
 
 
         &:hover {
@@ -23,10 +44,21 @@
 }
 
 @include respond(tab-port) {
-    .navbar {
+    .navbar,
+    .navbar__items {
         flex-direction: column;
+        
+        &__right {
+            margin-left: 0;
+            display: none;
+        }
     }
-    &__right {
-        margin-left: 0;
+    .navbar__toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        font-size: 300%;
+        color: white;
     }
 }
