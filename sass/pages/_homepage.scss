@@ -1,0 +1,22 @@
+.section-intro {
+    margin-top: 1rem;
+    background-image: radial-gradient(rgba(204,204,204,0.8), rgba(0,0,0,0.98)), url('../../public/images/hero-banner-2.jpg');
+    background-size: cover;
+    color: $grey-color;
+    text-align: center;
+    height: 100rem;
+
+    &__heading {
+        font-size: 5rem;
+        color: $white-color;
+        letter-spacing: 0.4rem;
+        padding-top: 8rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $white-color;
+        padding-top: 6rem;
+        margin: 0 4rem;
+    }
+}

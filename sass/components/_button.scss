@@ -15,6 +15,8 @@
 
     &:hover {
         box-shadow: 0 1px 2px 1px $slate-grey-color;
+        background-color: $purple-color;
+        color: $white-color;
         transform: translateY(-1.5px);
     }
 
