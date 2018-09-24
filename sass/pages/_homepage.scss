@@ -5,6 +5,13 @@
     color: $grey-color;
     text-align: center;
     height: 100rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    }
 
     &__heading {
         font-size: 5rem;
@@ -14,7 +21,6 @@
         padding-bottom: 1rem;
         border-bottom: 3px solid $purple-color;
         display: inline-block;
-        
     }
 
     &__text {
@@ -22,5 +28,24 @@
         color: $white-color;
         padding-top: 6rem;
         margin: 0 4rem;
+    }
+}
+
+.section-about {
+    margin-top: 0;
+
+    &__heading {
+        font-size: 5rem;
+        color: $purple-color;
+        letter-spacing: 0.4rem;
+        padding-top: 8rem;
+        padding-bottom: 1rem;
+        border-bottom: 3px solid $purple-color;
+        display: inline-block;
+    }
+
+    &__image {
+        padding-top: 2rem;
+        display: block;
     }
 }
