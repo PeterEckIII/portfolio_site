@@ -2,15 +2,16 @@
     margin-top: 1rem;
     background-image: radial-gradient(rgba(204,204,204,0.8), rgba(0,0,0,0.98)), url('../../public/images/hero-banner-2.jpg');
     background-size: cover;
+    background-position: center;
     color: $grey-color;
     text-align: center;
     height: 100rem;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%);
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%);
 
     @include respond(phone) {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%);
+        clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%);
     }
 
     &__heading {
@@ -32,20 +33,40 @@
 }
 
 .section-about {
-    margin-top: 0;
+    margin-top: -20rem;
+    background-color: $background-main;
 
     &__heading {
-        font-size: 5rem;
-        color: $purple-color;
+        margin-top: 14rem;
+        font-size: 4rem;
+        color: $white-color;
         letter-spacing: 0.4rem;
         padding-top: 8rem;
         padding-bottom: 1rem;
         border-bottom: 3px solid $purple-color;
         display: inline-block;
+
+        &-div {
+            text-align: center;
+        }
     }
 
     &__image {
-        padding-top: 2rem;
         display: block;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        transform: scale(0.55);
+        margin-top: -5rem;
+        margin-bottom: -8rem;
+    }
+
+    &__text {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        color: $white-color;
     }
 }
