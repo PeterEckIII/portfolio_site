@@ -232,7 +232,7 @@ body {
   background-position: center;
   color: #ccc;
   text-align: center;
-  height: 100rem;
+  height: 72rem;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%);
   clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%); }
   @media (max-width: 37.5em) {
@@ -240,7 +240,7 @@ body {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%);
       clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%); } }
   .section-intro__heading {
-    font-size: 5rem;
+    font-size: 6.5rem;
     color: #fff;
     letter-spacing: 0.4rem;
     padding-top: 8rem;
@@ -248,10 +248,10 @@ body {
     border-bottom: 3px solid #8544ba;
     display: inline-block; }
   .section-intro__text {
-    font-size: 2rem;
+    font-size: 2.8rem;
     color: #fff;
     padding-top: 6rem;
-    margin: 0 4rem; }
+    margin: 0 15rem; }
 
 .section-about {
   margin-top: -20rem;
@@ -273,12 +273,30 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    transform: scale(0.55);
-    margin-top: -5rem;
-    margin-bottom: -8rem; }
+    transform: scale(0.45);
+    margin-top: -10rem;
+    margin-bottom: -12rem; }
+  .section-about__text-group {
+    padding-bottom: 8rem; }
   .section-about__text {
     font-size: 1.7rem;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    color: #fff; }
+    margin: 0 13rem;
+    color: #fff;
+    line-height: 4rem;
+    font-weight: 300;
+    margin-bottom: 2rem; }
+
+.section-skills {
+  background-color: #333;
+  height: 75rem; }
+  .section-skills__heading {
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 0.4rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #8544ba;
+    display: inline-block; }
+    .section-skills__heading-div {
+      text-align: center; }
