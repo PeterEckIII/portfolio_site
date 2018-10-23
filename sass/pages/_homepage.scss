@@ -78,7 +78,7 @@
 
 .section-skills {
     background-color: #5b5656;
-    height: 75rem;
+    height: 105rem;
 
     &__heading {
         margin-top: 1rem;
@@ -93,5 +93,21 @@
         &-div {
             text-align: center;
         }
+    }
+
+    &__container {
+        display: block;
+    }
+
+    &__type {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    &__header {
+        font-size: 2.7rem;
+        margin-bottom: 1.5rem;
+        color: $white-color;
+        letter-spacing: 0.4rem;
     }
 }
