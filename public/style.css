@@ -93,7 +93,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    float: left;
     color: black;
     text-align: center; }
     .row [class^="col-"]:not(:last-child) {
@@ -324,10 +323,16 @@ body {
   .section-skills__container {
     display: block; }
   .section-skills__type {
-    text-align: center;
+    text-align: left;
     margin-top: 2rem; }
   .section-skills__header {
     font-size: 2.7rem;
     margin-bottom: 1.5rem;
     color: #fff;
-    letter-spacing: 0.4rem; }
+    letter-spacing: 0.4rem;
+    margin-left: 7rem; }
+  .section-skills__icons {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
