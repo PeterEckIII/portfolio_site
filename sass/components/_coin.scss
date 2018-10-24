@@ -1,0 +1,26 @@
+.coin {
+    position: relative;
+    height: auto;
+    width: 141px;
+  
+    &__side {
+      transition: all 0.8s ease;
+      height: auto;
+      backface-visibility: hidden;
+      overflow: hidden;
+  
+      &--back {
+        position: absolute;
+        top: 0;
+        transform: rotateY(180deg);
+      }
+    }
+  
+    &:hover &__side--front {
+      transform: rotateY(-180deg);
+    }
+  
+    &:hover &__side--back {
+      transform: rotateY(0);
+    }
+  }
