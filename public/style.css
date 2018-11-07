@@ -57,7 +57,9 @@ body {
 .coin {
   position: relative;
   height: auto;
-  width: 141px; }
+  width: 141px;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem; }
   .coin__side {
     transition: all 0.8s ease;
     height: auto;
@@ -137,7 +139,7 @@ body {
     border-bottom: 3px solid #8544ba;
     display: inline-block; }
   .section-intro__text {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     color: #fff;
     padding-top: 6rem;
     margin: 0 15rem; }
@@ -168,7 +170,7 @@ body {
   .section-about__text-group {
     padding-bottom: 8rem; }
   .section-about__text {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     margin: 0 13rem;
     color: #fff;
     line-height: 4rem;
@@ -177,7 +179,7 @@ body {
 
 .section-skills {
   background-color: #5b5656;
-  height: 150rem; }
+  height: 140rem; }
   .section-skills__heading {
     margin-top: 1rem;
     font-size: 4rem;
@@ -199,10 +201,12 @@ body {
     margin-bottom: 1.5rem;
     color: #fff;
     letter-spacing: 0.4rem;
-    margin-left: 7rem; }
+    text-align: center; }
   .section-skills__icons {
-    height: 15rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 7rem; }
+    justify-content: center;
+    align-items: flex-start; }
+  .section-skills__type--frontend {
+    float: left; }
+  .section-skills__type--backend {
+    float: right; }

@@ -25,7 +25,7 @@
     }
 
     &__text {
-        font-size: 2.8rem;
+        font-size: 3.8rem;
         color: $white-color;
         padding-top: 6rem;
         margin: 0 15rem;
@@ -67,7 +67,7 @@
     }
 
     &__text {
-        font-size: 1.7rem;
+        font-size: 2.2rem;
         margin: 0 13rem;
         color: $white-color;
         line-height: 4rem;
@@ -78,7 +78,7 @@
 
 .section-skills {
     background-color: #5b5656;
-    height: 150rem;
+    height: 140rem;
 
     &__heading {
         margin-top: 1rem;
@@ -109,14 +109,20 @@
         margin-bottom: 1.5rem;
         color: $white-color;
         letter-spacing: 0.4rem;
-        margin-left: 7rem;
+        text-align: center;
     }
 
     &__icons  {
-        height: 15rem;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
-        margin-left: 7rem;
+    }
+
+    &__type--frontend {
+        float: left;
+    }
+
+    &__type--backend {
+        float: right;
     }
 }
