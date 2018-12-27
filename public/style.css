@@ -212,3 +212,18 @@ body {
   .section-skills__type--backend {
     float: right;
     margin-right: -100px; }
+
+.section-projects {
+  background-color: #272c35;
+  height: 140rem; }
+  .section-projects__heading {
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 0.4rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #8544ba;
+    display: inline-block; }
+    .section-projects__heading-div {
+      text-align: center; }

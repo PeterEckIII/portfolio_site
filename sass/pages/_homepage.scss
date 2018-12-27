@@ -128,3 +128,23 @@
         margin-right: -100px;
     }
 }
+
+.section-projects {
+    background-color: $background-main;
+    height: 140rem;
+
+    &__heading {
+        margin-top: 1rem;
+        font-size: 4rem;
+        color: $white-color;
+        letter-spacing: 0.4rem;
+        padding-top: 8rem;
+        padding-bottom: 1rem;
+        border-bottom: 3px solid $purple-color;
+        display: inline-block;
+
+        &-div {
+            text-align: center;
+        }
+    }
+}
