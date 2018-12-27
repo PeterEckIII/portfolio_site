@@ -120,9 +120,11 @@
 
     &__type--frontend {
         float: left;
+        margin-left: -150px;
     }
 
     &__type--backend {
         float: right;
+        margin-right: -100px;
     }
 }

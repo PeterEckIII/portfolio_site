@@ -207,6 +207,8 @@ body {
     justify-content: center;
     align-items: flex-start; }
   .section-skills__type--frontend {
-    float: left; }
+    float: left;
+    margin-left: -150px; }
   .section-skills__type--backend {
-    float: right; }
+    float: right;
+    margin-right: -100px; }
