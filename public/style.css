@@ -74,6 +74,39 @@ body {
   .coin:hover .coin__side--back {
     transform: rotateY(0); }
 
+.card {
+  font-family: Montserrat;
+  height: 250px;
+  width: 700px;
+  position: relative;
+  border-radius: 9%;
+  box-shadow: 1px 1px 2px 2px red; }
+  .card-title {
+    position: absolute;
+    top: -2%;
+    left: 5%; }
+  .card-description-container {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 45%; }
+  .card-tech {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    right: 5%;
+    bottom: 40%; }
+  .card-button-container {
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    border-radius: 15%;
+    padding: 2%;
+    cursor: pointer; }
+  .card-link {
+    text-decoration: none;
+    color: #8544BA; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -215,7 +248,7 @@ body {
 
 .section-projects {
   background-color: #272c35;
-  height: 140rem; }
+  height: 100rem; }
   .section-projects__heading {
     margin-top: 1rem;
     font-size: 4rem;

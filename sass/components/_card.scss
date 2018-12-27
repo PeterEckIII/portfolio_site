@@ -1,0 +1,44 @@
+.card {
+    font-family: Montserrat;
+    height: 250px;
+    width: 700px;
+    position: relative;
+    // border: 1px solid black;
+    border-radius: 9%;
+    box-shadow: 1px 1px 2px 2px red;
+
+    &-title {
+        position: absolute;
+        top: -2%;
+        left: 5%;
+    }
+
+    &-description-container {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        right: 45%
+    }
+
+    &-tech {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        right: 5%;
+        bottom: 40%;
+    }
+
+    &-button-container {
+        position: absolute;
+        right: 10%;
+        bottom: 15%;
+        border-radius: 15%;
+        padding: 2%;
+        cursor: pointer;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: #8544BA;
+    }
+}

@@ -131,7 +131,7 @@
 
 .section-projects {
     background-color: $background-main;
-    height: 140rem;
+    height: 100rem;
 
     &__heading {
         margin-top: 1rem;
@@ -146,5 +146,9 @@
         &-div {
             text-align: center;
         }
+    }
+
+    &__card-section-item {
+        // position: relative;
     }
 }
