@@ -1,15 +1,17 @@
 {
-  "name": "portfolio_site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass sass/main.scss public/style.css -w"
-  },
-  "author": "Peter Eck",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.9.3",
-    "sass": "^1.13.4"
-  }
+    "name": "portfolio_site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss public/style.css -w",
+        "start": "lite-server"
+    },
+    "author": "Peter Eck",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.4.0",
+        "node-sass": "^4.9.3",
+        "sass": "^1.13.4"
+    }
 }
