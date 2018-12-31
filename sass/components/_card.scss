@@ -1,44 +1,29 @@
 .card {
-    font-family: Montserrat;
-    height: 250px;
-    width: 700px;
     position: relative;
-    // border: 1px solid black;
-    border-radius: 9%;
-    box-shadow: 1px 1px 2px 2px red;
+    box-shadow: 1px 1px 1px 1px grey;
+    color: $background-main;
+    width: 72%;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 3.5rem;
 
-    &-title {
-        position: absolute;
-        top: -2%;
-        left: 5%;
-    }
-
-    &-description-container {
-        position: absolute;
-        top: 20%;
-        left: 5%;
-        right: 45%
-    }
-
-    &-tech {
-        position: absolute;
-        top: 20%;
-        left: 60%;
-        right: 5%;
-        bottom: 40%;
-    }
-
-    &-button-container {
-        position: absolute;
-        right: 10%;
-        bottom: 15%;
-        border-radius: 15%;
-        padding: 2%;
+    &:hover {
+        transform: translateY(-0.7%);
+        box-shadow: 1px 1px 2px 2px grey;
         cursor: pointer;
     }
 
-    &-link {
-        text-decoration: none;
-        color: #8544BA;
+    &-title {
+        font-size: 2.7rem;
+        color: $purple-color;
+    }
+
+    &-description-container {
+        display: flex;
+        margin-top: 2rem;
+        width: auto;
+        height: auto;
+        font-size: 1.2rem;
     }
 }

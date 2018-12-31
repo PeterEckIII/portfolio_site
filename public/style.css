@@ -75,37 +75,27 @@ body {
     transform: rotateY(0); }
 
 .card {
-  font-family: Montserrat;
-  height: 250px;
-  width: 700px;
   position: relative;
-  border-radius: 9%;
-  box-shadow: 1px 1px 2px 2px red; }
-  .card-title {
-    position: absolute;
-    top: -2%;
-    left: 5%; }
-  .card-description-container {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    right: 45%; }
-  .card-tech {
-    position: absolute;
-    top: 20%;
-    left: 60%;
-    right: 5%;
-    bottom: 40%; }
-  .card-button-container {
-    position: absolute;
-    right: 10%;
-    bottom: 15%;
-    border-radius: 15%;
-    padding: 2%;
+  box-shadow: 1px 1px 1px 1px grey;
+  color: #272c35;
+  width: 72%;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 3.5rem; }
+  .card:hover {
+    transform: translateY(-0.7%);
+    box-shadow: 1px 1px 2px 2px grey;
     cursor: pointer; }
-  .card-link {
-    text-decoration: none;
-    color: #8544BA; }
+  .card-title {
+    font-size: 2.7rem;
+    color: #8544ba; }
+  .card-description-container {
+    display: flex;
+    margin-top: 2rem;
+    width: auto;
+    height: auto;
+    font-size: 1.2rem; }
 
 .row {
   max-width: 114rem;
@@ -247,12 +237,12 @@ body {
     margin-right: -100px; }
 
 .section-projects {
-  background-color: #272c35;
+  background-color: #fff;
   height: 100rem; }
   .section-projects__heading {
     margin-top: 1rem;
     font-size: 4rem;
-    color: #fff;
+    color: #272c35;
     letter-spacing: 0.4rem;
     padding-top: 8rem;
     padding-bottom: 1rem;
@@ -260,3 +250,9 @@ body {
     display: inline-block; }
     .section-projects__heading-div {
       text-align: center; }
+  .section-projects__card-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem; }
+  .section-projects__card-section--item {
+    position: relative; }
